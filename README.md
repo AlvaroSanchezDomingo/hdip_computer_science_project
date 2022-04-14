@@ -15,22 +15,27 @@ Lynx monitoring is an application deployed in a physical PC on-site. It takes da
 
 # Project Links
 
+- Front End (Svelte)
+
+https://github.com/AlvaroSanchezDomingo/lynx-front-end
+
+
 - Database Service (Node.js)
 
-It is a service program deployed in Node.js that manages the interaction with the data base MongoDB. This service exposes API REST endpoints so that other services or front end can interact with it in order to request or manage data of users, machines, sections, devices, alarms, shifts, etc.
+It is a service program deployed in Node.js that manages the interaction with the data base. This service exposes API REST endpoints so that other services or front end can interact with it in order to request or manage data of users, machines, sections, devices, alarms, shifts, etc.
 
 https://github.com/AlvaroSanchezDomingo/lynx-db-service
 
 
 - Time Series Service (Node.js)
 
-It is a service program deployed in Node.js that manages the interaction with the time series database InfluxDB. This service is subscribed to all the topics of the message broker, which manages the intake of variables, in order to store production data accordingly. This service exposes API REST endpoints so that other services or front end can interact with it in order to request and manage production data.
+It is a service program deployed in Node.js that manages the interaction with the time series database. This service is subscribed to all the topics of the message broker, which manages the intake of variables, in order to store production data accordingly. This service exposes API REST endpoints so that other services or front end can interact with it in order to request and manage production data.
 
 https://github.com/AlvaroSanchezDomingo/lynx-ts-service
 
 - Cache service (Node.js)
 
-It is a service program deployed in Node.js that manages the interaction with the in-memory database Redis. This service is subscribed to all the topics of the message broker, which manages the intake of variables, in order to store the current value of all variable. This service exposes API REST endpoints so that other services or front end can interact with it in order to request current data.
+It is a service program deployed in Node.js that manages the interaction with the in-memory database. This service is subscribed to all the topics of the message broker, which manages the intake of variables, in order to store the current value of all variable. This service exposes API REST endpoints so that other services or front end can interact with it in order to request current data.
 
 https://github.com/AlvaroSanchezDomingo/lynx-cache-service
 
@@ -52,7 +57,70 @@ It is a service program deployed in Node-RED that manages the capture of data fr
 
 https://github.com/AlvaroSanchezDomingo/lynx-node-red
 
+- Deployment
+
+https://github.com/AlvaroSanchezDomingo/lynx-docker
+
 
 - Jira Project Gantt Chart
 
 https://asanchez.atlassian.net/jira/software/projects/WP/boards/1/roadmap?shared=&atlOrigin=eyJpIjoiYWJkYWI1NDVkMzUyNDk2Yjk5YjgzMWNhYjcyYzc5MDciLCJwIjoiaiJ9
+
+
+# Application
+
+- Login
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/login.png">
+
+- Plant dashboard
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/plant.png">
+
+- Line running dashboard
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/line_running.png">
+
+- Line stopped dashboard
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/line_stopped.png">
+
+- Machine dashboard
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/machine_main.png">
+
+- Machine status dashboard
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/machine_status.png">
+
+- Machine production dashboard
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/machine_production.png">
+
+- Machine alarms dashboard
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/machine_alarms.png">
+
+- Device list
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/device_list.png">
+
+- Device configuration
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/configuration_device.png">
+
+- Machine list
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/machine_list.png">
+
+- Machine configuration
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/configuration_machine.png">
+
+- Section list
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/section_list.png">
+
+- Section configuration
+
+<img src="https://github.com/AlvaroSanchezDomingo/hdip_computer_science_project/blob/master/images/configuration_section.png">
