@@ -19,7 +19,10 @@ Lynx monitoring is an application deployed in a physical PC on-site. It takes da
 
 https://asanchez.atlassian.net/jira/software/projects/WP/boards/1/roadmap?shared=&atlOrigin=eyJpIjoiYWJkYWI1NDVkMzUyNDk2Yjk5YjgzMWNhYjcyYzc5MDciLCJwIjoiaiJ9
 
+ - Project video
 
+ https://www.youtube.com/watch?v=hX1NuaEbJF0
+ 
 # Project code
 
 - Front End (Svelte) Confidential information
